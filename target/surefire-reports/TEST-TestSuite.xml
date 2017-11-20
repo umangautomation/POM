@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="7" name="TestSuite" time="125.941" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="SaasPoject"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\ADMIN\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="91acde811042cba6"/>
+    <property name="POM_ARTIFACTID" value="SaasModel"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="SaasModel"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\ADMIN\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="user.name" value="ADMIN"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="SaasPoject"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/SaasPoject/10/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\ADMIN\AppData\Local"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="ADMIN"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="10"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\ADMIN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="MVN_HOME" value="D:\Selenium_Webdriver_\apache-maven-3.5.0-bin\apache-maven-3.5.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/SaasPoject/10/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\ADMIN\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/SaasPoject/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_77"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\ADMIN"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="UMANG-PC"/>
+    <property name="POM_GROUPID" value="AdminPanelTesting"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="user.home" value="C:\Users\ADMIN"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-SaasPoject-10"/>
+    <property name="JENKINS_SERVER_COOKIE" value="91acde811042cba6"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\ADMIN"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_77\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\ADMIN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/bin;C:\Program Files\Java\jdk1.8.0_77/bin;C:\Program Files\Java\jdk1.8.0_77/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;%MVN_HOME%\bin;C:\Users\ADMIN\AppData\Local\Android\sdk\platform-tools;C:\Users\ADMIN\AppData\Local\Android\sdk\tools;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\ ;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Users\ADMIN\AppData\Local\Android\sdk\tools;C:\Users\ADMIN\AppData\Roaming\npm;C:\Selenium_Webdriver_\chromedriver_win32\IEDriverServer.exe;D:\Selenium_Webdriver_\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\ADMIN\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\ADMIN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
+    <property name="java.class.path" value="C:\Users\ADMIN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Users\ADMIN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven\boot\plexus-classworlds-2.5.2.jar;C:\Users\ADMIN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\ADMIN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven C:\Users\ADMIN\.jenkins\war\WEB-INF\lib\remoting-3.10.2.jar C:\Users\ADMIN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\ADMIN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 60901"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_77/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;%MVN_HOME%\bin;C:\Users\ADMIN\AppData\Local\Android\sdk\platform-tools;C:\Users\ADMIN\AppData\Local\Android\sdk\tools;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\ ;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Users\ADMIN\AppData\Local\Android\sdk\tools;C:\Users\ADMIN\AppData\Roaming\npm;C:\Selenium_Webdriver_\chromedriver_win32\IEDriverServer.exe;D:\Selenium_Webdriver_\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_77/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\ADMIN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
+    <property name="=D:" value="D:\Selenium_Webdriver_"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMIN\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\ADMIN\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\ADMIN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/SaasPoject/10/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\oops\SaasModel"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/SaasPoject/"/>
+    <property name="LOGONSERVER" value="\\UMANG-PC"/>
+    <property name="USERDOMAIN" value="UMANG-PC"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\ADMIN\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="10"/>
+    <property name="ANDROID_HOME" value="C:\Users\ADMIN\AppData\Local\Android\sdk"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="3d04"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Selenium_Webdriver_"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\ADMIN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\ADMIN\.jenkins\workspace\SaasPoject"/>
+    <property name="maven3.interceptor.common" value="C:\Users\ADMIN\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+  </properties>
+  <testcase classname="com.adminpanel.qa.testcases.AddBuilderTest" name="addBuilderTest" time="3.358">
+    <failure message="
+Data provider mismatch
+Method: addBuilderTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=10, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=11, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)abcdd,(java.lang.String)abc1114@gmail.com,(java.lang.String)QWERT4561Y,(java.lang.String)Tes,(java.lang.String)Testss,(java.lang.String)123456,(java.lang.String)5678941254681234,(java.lang.String)can holder,(java.lang.String)SBI,(java.lang.String)branch,(java.lang.String)city,(java.lang.String)123456asd,(java.lang.String)test,(java.lang.String)teseet@gmail.com,(java.lang.String)9873084507]" type="org.testng.internal.reflect.MethodMatcherException">org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: addBuilderTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=10, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=11, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)abcdd,(java.lang.String)abc1114@gmail.com,(java.lang.String)QWERT4561Y,(java.lang.String)Tes,(java.lang.String)Testss,(java.lang.String)123456,(java.lang.String)5678941254681234,(java.lang.String)can holder,(java.lang.String)SBI,(java.lang.String)branch,(java.lang.String)city,(java.lang.String)123456asd,(java.lang.String)test,(java.lang.String)teseet@gmail.com,(java.lang.String)9873084507]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:49)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1187)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@1055e4af
+</system-out>
+  </testcase>
+  <testcase classname="com.adminpanel.qa.testcases.AddNewBankTest" name="addNewBankTest" time="25.24">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h4[contains(text(),&apos;Success&apos;)]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6284_16122}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 15ad3d4e4c17a42b11c7d11b32c11f0d
+*** Element info: {Using=xpath, value=//h4[contains(text(),&apos;Success&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h4[contains(text(),&apos;Success&apos;)]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6284_16122}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 15ad3d4e4c17a42b11c7d11b32c11f0d
+*** Element info: {Using=xpath, value=//h4[contains(text(),&apos;Success&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:109)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:193)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.adminpanel.qa.pages.AddNewBank.verifySuccessMessage(AddNewBank.java:150)
+	at com.adminpanel.qa.testcases.AddNewBankTest.addNewBankTest(AddNewBankTest.java:61)
+</failure>
+    <system-out>Before navigating to: &apos;https://bookmyhouse.com/services/login&apos;
+Navigated to:&apos;https://bookmyhouse.com/services/login&apos;
+Trying to find Element By : By.name: user_type
+Found Element By : By.name: user_type
+Trying to find Element By : By.name: email_email
+Found Element By : By.name: email_email
+Trying to find Element By : By.name: password_password
+Found Element By : By.name: password_password
+Trying to find Element By : By.xpath: //button[contains(text(),&apos;Sign In&apos;)]
+Found Element By : By.xpath: //button[contains(text(),&apos;Sign In&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
+Trying to find Element By : By.xpath: //span[contains(text(),&apos;Aggregator Management&apos;)]
+Found Element By : By.xpath: //span[contains(text(),&apos;Aggregator Management&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; xpath: //span[contains(text(),&apos;Aggregator Management&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; xpath: //span[contains(text(),&apos;Aggregator Management&apos;)]]
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;Add Bank Account&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos;Add Bank Account&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; xpath: //a[contains(text(),&apos;Add Bank Account&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; xpath: //a[contains(text(),&apos;Add Bank Account&apos;)]]
+Trying to find Element By : By.name: business_name_text
+Found Element By : By.name: business_name_text
+Trying to find Element By : By.name: business_email_id_text
+Found Element By : By.name: business_email_id_text
+Trying to find Element By : By.name: pancard_text
+Found Element By : By.name: pancard_text
+Trying to find Element By : By.name: name_on_pancard_text
+Found Element By : By.name: name_on_pancard_text
+Trying to find Element By : By.name: business_rgtd_address_text
+Found Element By : By.name: business_rgtd_address_text
+Trying to find Element By : By.name: pincode_text
+Found Element By : By.name: pincode_text
+Trying to find Element By : By.name: account_number_text
+Found Element By : By.name: account_number_text
+Trying to find Element By : By.name: account_name
+Found Element By : By.name: account_name
+Trying to find Element By : By.name: bank_name
+Found Element By : By.name: bank_name
+Trying to find Element By : By.name: branch_name
+Found Element By : By.name: branch_name
+Trying to find Element By : By.name: branch_city
+Found Element By : By.name: branch_city
+Trying to find Element By : By.name: bank_ifsc_code
+Found Element By : By.name: bank_ifsc_code
+Trying to find Element By : By.name: contact_name_text
+Found Element By : By.name: contact_name_text
+Trying to find Element By : By.name: contact_email_text
+Found Element By : By.name: contact_email_text
+Trying to find Element By : By.name: contact_mobile_number
+Found Element By : By.name: contact_mobile_number
+Trying to find Element By : By.name: business_cat_text
+Found Element By : By.name: business_cat_text
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;Healthcare&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;Healthcare&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; name: business_cat_text]] -&gt; xpath: .//option[normalize-space(.) = &quot;Healthcare&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; name: business_cat_text]] -&gt; xpath: .//option[normalize-space(.) = &quot;Healthcare&quot;]]
+Trying to find Element By : By.name: business_type_text
+Found Element By : By.name: business_type_text
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;LLP&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;LLP&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; name: business_type_text]] -&gt; xpath: .//option[normalize-space(.) = &quot;LLP&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; name: business_type_text]] -&gt; xpath: .//option[normalize-space(.) = &quot;LLP&quot;]]
+Trying to find Element By : By.name: state
+Found Element By : By.name: state
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;Haryana&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;Haryana&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; name: state]] -&gt; xpath: .//option[normalize-space(.) = &quot;Haryana&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; name: state]] -&gt; xpath: .//option[normalize-space(.) = &quot;Haryana&quot;]]
+Trying to find Element By : By.name: city
+Found Element By : By.name: city
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;Ambala&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;Ambala&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; name: city]] -&gt; xpath: .//option[normalize-space(.) = &quot;Ambala&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; name: city]] -&gt; xpath: .//option[normalize-space(.) = &quot;Ambala&quot;]]
+Trying to find Element By : By.name: account_type_text
+Found Element By : By.name: account_type_text
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;Saving&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;Saving&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; name: account_type_text]] -&gt; xpath: .//option[normalize-space(.) = &quot;Saving&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; name: account_type_text]] -&gt; xpath: .//option[normalize-space(.) = &quot;Saving&quot;]]
+Trying to find Element By : By.xpath: //button[contains(text(),&apos;Submit&apos;)]
+Found Element By : By.xpath: //button[contains(text(),&apos;Submit&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; xpath: //button[contains(text(),&apos;Submit&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (15ad3d4e4c17a42b11c7d11b32c11f0d)] -&gt; xpath: //button[contains(text(),&apos;Submit&apos;)]]
+Trying to find Element By : By.xpath: //h4[contains(text(),&apos;Success&apos;)]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h4[contains(text(),&apos;Success&apos;)]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6284_16122}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 15ad3d4e4c17a42b11c7d11b32c11f0d
+*** Element info: {Using=xpath, value=//h4[contains(text(),&apos;Success&apos;)]}
+</system-out>
+    <system-err>Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 27535
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+Nov 20, 2017 3:35:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.adminpanel.qa.testcases.AddNewBankTest" name="addNewBankTest" time="24.263">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h4[contains(text(),&apos;Success&apos;)]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6960_22827}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e0889a14e2924fe372062fe75052f697
+*** Element info: {Using=xpath, value=//h4[contains(text(),&apos;Success&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h4[contains(text(),&apos;Success&apos;)]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6960_22827}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e0889a14e2924fe372062fe75052f697
+*** Element info: {Using=xpath, value=//h4[contains(text(),&apos;Success&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:109)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:193)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.adminpanel.qa.pages.AddNewBank.verifySuccessMessage(AddNewBank.java:150)
+	at com.adminpanel.qa.testcases.AddNewBankTest.addNewBankTest(AddNewBankTest.java:61)
+</failure>
+    <system-out>Before navigating to: &apos;https://bookmyhouse.com/services/login&apos;
+Navigated to:&apos;https://bookmyhouse.com/services/login&apos;
+Trying to find Element By : By.name: user_type
+Found Element By : By.name: user_type
+Trying to find Element By : By.name: email_email
+Found Element By : By.name: email_email
+Trying to find Element By : By.name: password_password
+Found Element By : By.name: password_password
+Trying to find Element By : By.xpath: //button[contains(text(),&apos;Sign In&apos;)]
+Found Element By : By.xpath: //button[contains(text(),&apos;Sign In&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
+Trying to find Element By : By.xpath: //span[contains(text(),&apos;Aggregator Management&apos;)]
+Found Element By : By.xpath: //span[contains(text(),&apos;Aggregator Management&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; xpath: //span[contains(text(),&apos;Aggregator Management&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; xpath: //span[contains(text(),&apos;Aggregator Management&apos;)]]
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;Add Bank Account&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos;Add Bank Account&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; xpath: //a[contains(text(),&apos;Add Bank Account&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; xpath: //a[contains(text(),&apos;Add Bank Account&apos;)]]
+Trying to find Element By : By.name: business_name_text
+Found Element By : By.name: business_name_text
+Trying to find Element By : By.name: business_email_id_text
+Found Element By : By.name: business_email_id_text
+Trying to find Element By : By.name: pancard_text
+Found Element By : By.name: pancard_text
+Trying to find Element By : By.name: name_on_pancard_text
+Found Element By : By.name: name_on_pancard_text
+Trying to find Element By : By.name: business_rgtd_address_text
+Found Element By : By.name: business_rgtd_address_text
+Trying to find Element By : By.name: pincode_text
+Found Element By : By.name: pincode_text
+Trying to find Element By : By.name: account_number_text
+Found Element By : By.name: account_number_text
+Trying to find Element By : By.name: account_name
+Found Element By : By.name: account_name
+Trying to find Element By : By.name: bank_name
+Found Element By : By.name: bank_name
+Trying to find Element By : By.name: branch_name
+Found Element By : By.name: branch_name
+Trying to find Element By : By.name: branch_city
+Found Element By : By.name: branch_city
+Trying to find Element By : By.name: bank_ifsc_code
+Found Element By : By.name: bank_ifsc_code
+Trying to find Element By : By.name: contact_name_text
+Found Element By : By.name: contact_name_text
+Trying to find Element By : By.name: contact_email_text
+Found Element By : By.name: contact_email_text
+Trying to find Element By : By.name: contact_mobile_number
+Found Element By : By.name: contact_mobile_number
+Trying to find Element By : By.name: business_cat_text
+Found Element By : By.name: business_cat_text
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;Healthcare&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;Healthcare&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; name: business_cat_text]] -&gt; xpath: .//option[normalize-space(.) = &quot;Healthcare&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; name: business_cat_text]] -&gt; xpath: .//option[normalize-space(.) = &quot;Healthcare&quot;]]
+Trying to find Element By : By.name: business_type_text
+Found Element By : By.name: business_type_text
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;LLP&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;LLP&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; name: business_type_text]] -&gt; xpath: .//option[normalize-space(.) = &quot;LLP&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; name: business_type_text]] -&gt; xpath: .//option[normalize-space(.) = &quot;LLP&quot;]]
+Trying to find Element By : By.name: state
+Found Element By : By.name: state
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;Haryana&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;Haryana&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; name: state]] -&gt; xpath: .//option[normalize-space(.) = &quot;Haryana&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; name: state]] -&gt; xpath: .//option[normalize-space(.) = &quot;Haryana&quot;]]
+Trying to find Element By : By.name: city
+Found Element By : By.name: city
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;Ambala&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;Ambala&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; name: city]] -&gt; xpath: .//option[normalize-space(.) = &quot;Ambala&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; name: city]] -&gt; xpath: .//option[normalize-space(.) = &quot;Ambala&quot;]]
+Trying to find Element By : By.name: account_type_text
+Found Element By : By.name: account_type_text
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;Saving&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;Saving&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; name: account_type_text]] -&gt; xpath: .//option[normalize-space(.) = &quot;Saving&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; name: account_type_text]] -&gt; xpath: .//option[normalize-space(.) = &quot;Saving&quot;]]
+Trying to find Element By : By.xpath: //button[contains(text(),&apos;Submit&apos;)]
+Found Element By : By.xpath: //button[contains(text(),&apos;Submit&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; xpath: //button[contains(text(),&apos;Submit&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (e0889a14e2924fe372062fe75052f697)] -&gt; xpath: //button[contains(text(),&apos;Submit&apos;)]]
+Trying to find Element By : By.xpath: //h4[contains(text(),&apos;Success&apos;)]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h4[contains(text(),&apos;Success&apos;)]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6960_22827}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e0889a14e2924fe372062fe75052f697
+*** Element info: {Using=xpath, value=//h4[contains(text(),&apos;Success&apos;)]}
+</system-out>
+    <system-err>Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 30116
+Only local connections are allowed.
+Nov 20, 2017 3:36:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.adminpanel.qa.testcases.BuilderActMgmtTest" name="searchBuilderTest" time="6.002"/>
+  <testcase classname="com.adminpanel.qa.testcases.HomePageTest" name="verifyHomePageTitleTest" time="0.078"/>
+  <testcase classname="com.adminpanel.qa.testcases.HomePageTest" name="verifyUserNameLabelTest" time="10.646">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Admin&apos;)]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6076_31068}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ac3c1da43d229a25a86d0ab97a1f149
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Admin&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Admin&apos;)]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6076_31068}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ac3c1da43d229a25a86d0ab97a1f149
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Admin&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:109)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:193)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.adminpanel.qa.pages.HomePage.verifyUserNameLabel(HomePage.java:30)
+	at com.adminpanel.qa.testcases.HomePageTest.verifyUserNameLabelTest(HomePageTest.java:42)
+</failure>
+    <system-out>Before navigating to: &apos;https://bookmyhouse.com/services/login&apos;
+Navigated to:&apos;https://bookmyhouse.com/services/login&apos;
+Trying to find Element By : By.name: user_type
+Found Element By : By.name: user_type
+Trying to find Element By : By.name: email_email
+Found Element By : By.name: email_email
+Trying to find Element By : By.name: password_password
+Found Element By : By.name: password_password
+Trying to find Element By : By.xpath: //button[contains(text(),&apos;Sign In&apos;)]
+Found Element By : By.xpath: //button[contains(text(),&apos;Sign In&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (3ac3c1da43d229a25a86d0ab97a1f149)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (3ac3c1da43d229a25a86d0ab97a1f149)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
+Trying to find Element By : By.xpath: //span[contains(text(),&apos;Admin&apos;)]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Admin&apos;)]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6076_31068}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3ac3c1da43d229a25a86d0ab97a1f149
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Admin&apos;)]}
+</system-out>
+    <system-err>Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 2203
+Only local connections are allowed.
+Nov 20, 2017 3:37:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.adminpanel.qa.testcases.HomePageTest" name="verifyclickOnBuilderLinkTest" time="7.803"/>
+  <testcase classname="com.adminpanel.qa.testcases.BuilderListPageTest" name="selectBuilderByFirmNameTest" time="18.521">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir5312_9596}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: af59ca0c26a4ca8f9f0ac43a33813f75
+*** Element info: {Using=xpath, value=//td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir5312_9596}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: af59ca0c26a4ca8f9f0ac43a33813f75
+*** Element info: {Using=xpath, value=//td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:109)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:193)
+	at com.adminpanel.qa.pages.BuilderList.selectBuilderByFirmName(BuilderList.java:29)
+	at com.adminpanel.qa.testcases.BuilderListPageTest.selectBuilderByFirmNameTest(BuilderListPageTest.java:49)
+</failure>
+    <system-out>Before navigating to: &apos;https://bookmyhouse.com/services/login&apos;
+Navigated to:&apos;https://bookmyhouse.com/services/login&apos;
+Trying to find Element By : By.name: user_type
+Found Element By : By.name: user_type
+Trying to find Element By : By.name: email_email
+Found Element By : By.name: email_email
+Trying to find Element By : By.name: password_password
+Found Element By : By.name: password_password
+Trying to find Element By : By.xpath: //button[contains(text(),&apos;Sign In&apos;)]
+Found Element By : By.xpath: //button[contains(text(),&apos;Sign In&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (af59ca0c26a4ca8f9f0ac43a33813f75)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (af59ca0c26a4ca8f9f0ac43a33813f75)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
+Trying to find Element By : By.xpath: //span[contains(text(),&apos;Masters&apos;)]
+Found Element By : By.xpath: //span[contains(text(),&apos;Masters&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (af59ca0c26a4ca8f9f0ac43a33813f75)] -&gt; xpath: //span[contains(text(),&apos;Masters&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (af59ca0c26a4ca8f9f0ac43a33813f75)] -&gt; xpath: //span[contains(text(),&apos;Masters&apos;)]]
+Trying to find Element By : By.xpath: //a[text()=&apos;Builder&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Builder&apos;]
+Trying to click on: [[ChromeDriver: chrome on XP (af59ca0c26a4ca8f9f0ac43a33813f75)] -&gt; xpath: //a[text()=&apos;Builder&apos;]]
+Clicked on: [[ChromeDriver: chrome on XP (af59ca0c26a4ca8f9f0ac43a33813f75)] -&gt; xpath: //a[text()=&apos;Builder&apos;]]
+Trying to find Element By : By.xpath: //td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir5312_9596}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: af59ca0c26a4ca8f9f0ac43a33813f75
+*** Element info: {Using=xpath, value=//td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 26517
+Only local connections are allowed.
+Nov 20, 2017 3:38:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.adminpanel.qa.testcases.LoginPageTest" name="loginPageTitle" time="0.015"/>
+  <testcase classname="com.adminpanel.qa.testcases.BuilderListPageTest" name="selectmultiBuilderByFirmNameTest" time="10.753">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6664_11813}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f012c3a3c771d51952de3e4a2a15658f
+*** Element info: {Using=xpath, value=//td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6664_11813}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f012c3a3c771d51952de3e4a2a15658f
+*** Element info: {Using=xpath, value=//td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:109)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:193)
+	at com.adminpanel.qa.pages.BuilderList.selectBuilderByFirmName(BuilderList.java:29)
+	at com.adminpanel.qa.testcases.BuilderListPageTest.selectmultiBuilderByFirmNameTest(BuilderListPageTest.java:54)
+</failure>
+    <system-out>Before navigating to: &apos;https://bookmyhouse.com/services/login&apos;
+Navigated to:&apos;https://bookmyhouse.com/services/login&apos;
+Trying to find Element By : By.name: user_type
+Found Element By : By.name: user_type
+Trying to find Element By : By.name: email_email
+Found Element By : By.name: email_email
+Trying to find Element By : By.name: password_password
+Found Element By : By.name: password_password
+Trying to find Element By : By.xpath: //button[contains(text(),&apos;Sign In&apos;)]
+Found Element By : By.xpath: //button[contains(text(),&apos;Sign In&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (f012c3a3c771d51952de3e4a2a15658f)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (f012c3a3c771d51952de3e4a2a15658f)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
+Trying to find Element By : By.xpath: //td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6664_11813}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f012c3a3c771d51952de3e4a2a15658f
+*** Element info: {Using=xpath, value=//td[(text()=&apos;AARONE GROUP&apos;)]//preceding-sibling::td//input[@type=&apos;checkbox&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 5220
+Only local connections are allowed.
+Nov 20, 2017 3:39:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.adminpanel.qa.testcases.LoginPageTest" name="valiateLogin" time="8.657"/>
+  <testcase classname="com.adminpanel.qa.testcases.BuilderListPageTest" name="clickOnAddBuilderLinkTest" time="10.605">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Add New Builder&apos;)]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6200_3077}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 29cfba615d90432b4d45f8395cd0a923
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Add New Builder&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Add New Builder&apos;)]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6200_3077}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 29cfba615d90432b4d45f8395cd0a923
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Add New Builder&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:109)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:193)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.adminpanel.qa.pages.BuilderList.clickOnAddBuilderLink(BuilderList.java:34)
+	at com.adminpanel.qa.testcases.BuilderListPageTest.clickOnAddBuilderLinkTest(BuilderListPageTest.java:61)
+</failure>
+    <system-out>Before navigating to: &apos;https://bookmyhouse.com/services/login&apos;
+Navigated to:&apos;https://bookmyhouse.com/services/login&apos;
+Trying to find Element By : By.name: user_type
+Found Element By : By.name: user_type
+Trying to find Element By : By.name: email_email
+Found Element By : By.name: email_email
+Trying to find Element By : By.name: password_password
+Found Element By : By.name: password_password
+Trying to find Element By : By.xpath: //button[contains(text(),&apos;Sign In&apos;)]
+Found Element By : By.xpath: //button[contains(text(),&apos;Sign In&apos;)]
+Trying to click on: [[ChromeDriver: chrome on XP (29cfba615d90432b4d45f8395cd0a923)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
+Clicked on: [[ChromeDriver: chrome on XP (29cfba615d90432b4d45f8395cd0a923)] -&gt; xpath: //button[contains(text(),&apos;Sign In&apos;)]]
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;Add New Builder&apos;)]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Add New Builder&apos;)]&quot;}
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;UMANG-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir6200_3077}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 29cfba615d90432b4d45f8395cd0a923
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Add New Builder&apos;)]}
+</system-out>
+    <system-err>Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 38969
+Only local connections are allowed.
+Nov 20, 2017 3:40:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+</testsuite>

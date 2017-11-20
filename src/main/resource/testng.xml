@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="Admin Panel Automation">
+    
+    <listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+<test name ="Free CRM">
+  <classes>
+   <class name ="com.adminpanel.qa.testcases.LoginPageTest"></class>
+   <class name ="com.adminpanel.qa.testcases.HomePageTest"></class>
+  <!--  <class name ="com.adminpanel.qa.testcases.BuilderListPageTest"></class>
+   <class name ="com.adminpanel.qa.testcases.AddBuilderTest"></class>
+   <class name ="com.adminpanel.qa.testcases.BuilderActMgmtTest"></class>
+    -->
+    <class name ="com.adminpanel.qa.testcases.AddNewBankTest"></class>
+   
+   
+  </classes>
+ </test>
+
+
+
+
+</suite>

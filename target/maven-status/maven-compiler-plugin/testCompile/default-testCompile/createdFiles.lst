@@ -1,0 +1,6 @@
+com\adminpanel\qa\testcases\HomePageTest.class
+com\adminpanel\qa\testcases\LoginPageTest.class
+com\adminpanel\qa\testcases\BuilderActMgmtTest.class
+com\adminpanel\qa\testcases\AddNewBankTest.class
+com\adminpanel\qa\testcases\AddBuilderTest.class
+com\adminpanel\qa\testcases\BuilderListPageTest.class
