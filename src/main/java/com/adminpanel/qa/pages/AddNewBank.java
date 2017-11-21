@@ -11,6 +11,8 @@ import com.adminpanel.qa.base.TestBase;
 
 public class AddNewBank extends TestBase {
 	
+	//test
+	
 	@FindBy(xpath="//span[contains(text(),'Aggregator Management')]")
 	WebElement aggregatorMgmtLink;
 	
